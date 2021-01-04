@@ -1,0 +1,25 @@
+a:link{
+  color: rgb(13, 57, 124)
+}
+a:visited{
+  color: rgb(80, 15, 110)
+}
+a.current{
+  color: rgb(146, 146, 146)
+}
+a:hover:{
+  color: rgb(34, 63, 105);
+  background-color: rgb(170, 193, 241);
+  border: 4px solid rgb(16, 11, 82)
+}
+a: active{
+  color: rgb(247, 80, 80)
+}
+.logo{
+  float: left;
+  margin-right: 15px;
+  height: 90px;
+}
+.cards img{
+  max-height: 200px;
+}
