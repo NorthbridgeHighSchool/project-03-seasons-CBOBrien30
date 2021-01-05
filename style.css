@@ -1,19 +1,43 @@
-a:link{
-  color: rgb(13, 57, 124)
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Comfortaa:wght@700&family=Work+Sans&display=swap');
+h1{
+  font-family: "Comfortaa", fantasy;
+  font-weight: 700;
+  font-style: bold;
+  background-color: rgba(177, 172, 172, 0.582);
 }
-a:visited{
-  color: rgb(80, 15, 110)
+h2{
+  font-family: "Bitter", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  background-color: rgba(177, 172, 172, 0.582);
 }
-a.current{
-  color: rgb(146, 146, 146)
+
+nav a:link{
+  color: rgb(100, 59, 26);
+  background-color: rgb(128, 148, 190);
+  border: 4px solid rgb(26, 24, 99);
+  padding: 8px;
 }
-a:hover:{
+nav a:visited{
+  color: rgb(134, 98, 151);
+  background-color: rgb(200, 169, 221);
+  border: 4px solid rgb(43, 22, 83);
+}
+nav a:hover{
   color: rgb(34, 63, 105);
   background-color: rgb(170, 193, 241);
-  border: 4px solid rgb(16, 11, 82)
+  border: 4px solid rgb(16, 11, 82);
+  padding: 8px;
+  box-shadow: 0px 0px 5px 5px rgb(117, 117, 117);
 }
-a: active{
+nav a.current{
+  color: rgb(146, 146, 146)
+}
+nav a:active{
   color: rgb(247, 80, 80)
+}
+li{
+  margin-bottom: 24px;
 }
 .logo{
   float: left;
@@ -21,5 +45,51 @@ a: active{
   height: 90px;
 }
 .cards img{
-  max-height: 200px;
+  max-height: 250px;
+  border: 4px double rgb(0, 0, 0);
+}
+html.new-england-seasons{
+  background-image: url('new-england.jpg');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html.winter{
+  background-image: url('winter-trees.jpg');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html.spring{
+  background-image: url('spring-flowers.jpg');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html.summer{
+  background-image: url('summer-beach.jpg');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html.fall{
+  background-image: url('fall-leaves.jpg');
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.textblock{
+  background-color: rgba(197, 192, 192, 0.541);
+  font-family: "Work Sans", serif;
+  font-weight: 400;
+  font-style: normal;
 }
